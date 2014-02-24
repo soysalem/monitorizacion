@@ -1,0 +1,21 @@
+* Determinar si un agente informa 2 veces consecutivas al
+  recolector de que el uso de CPU está por encima 
+  del límite permitido
+
+* Enviar e-Mail a un usuario informando de esta condición
+
+=========================================================
+
+Fases propuestas:
+
+1) Mostrar un mensaje en consola cada vez que el recolector
+   detecte una métrica fuera de rango
+
+2) Mostrar un mensaje en consola cada vez que detecte
+   que un agente envía de manera sucesiva la métrica
+   fuera de rango
+
+3) Sustituir el mensaje en consola por un email usando
+   http://www.nodemailer.com/
+
+ 
